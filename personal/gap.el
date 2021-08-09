@@ -30,3 +30,5 @@ locks the screen."
 ;(require 'lsp-treemacs)
 ;; Where to store the cider history.
 ;(setq cider-repl-history-file "~/.emacs.d/cider-history")
+(setq cider-repl-history-file ".cider-history")
+(setq cider-repl-require-ns-on-set t)
